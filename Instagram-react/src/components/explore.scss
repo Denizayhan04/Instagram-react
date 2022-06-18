@@ -1,0 +1,33 @@
+.base{
+    width: 100%;
+
+}
+.explore{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    .profile-posts{
+        display: flex;
+        flex-basis: 975px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .profile-post{
+            &:hover{
+                cursor: pointer;
+                opacity: 0.8;
+            }
+            width: 293px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .profile-posts{
+        justify-content: center !important;
+            width: 100% !important;
+        
+    }
+}

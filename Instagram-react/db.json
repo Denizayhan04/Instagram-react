@@ -1,0 +1,161 @@
+{
+  "my-profile": [
+    {
+      "pp": "https://upload.wikimedia.org/wikipedia/commons/2/21/Solid_black.svg",
+      "followers": 458,
+      "following": 421,
+      "username": "denizayhan04",
+      "posts": [
+        {
+          "id": 1,
+          "img": "https://randomwordgenerator.com/img/picture-generator/50e6d1474950b10ff3d8992cc12c30771037dbf85254794e702673d2924b_640.jpg",
+          "like": 154,
+          "bookmarkedstatus": false,
+          "username": "denizayhan04"
+        },
+        {
+          "id": 2,
+          "img": "https://randomwordgenerator.com/img/picture-generator/57e2d1454f53a414f1dc8460962e33791c3ad6e04e5074417c2f7dd5904ecd_640.jpg",
+          "like": 354,
+          "bookmarkedstatus": false,
+          "username": "denizayhan04"
+        },
+        {
+          "id": 3,
+          "img": "https://randomwordgenerator.com/img/picture-generator/57e8d1434f50aa14f1dc8460962e33791c3ad6e04e50744077277dd19449c3_640.jpg",
+          "like": 453,
+          "bookmarkedstatus": false,
+          "username": "denizayhan04"
+        },
+        {
+          "id": 4,
+          "img": "https://randomwordgenerator.com/img/picture-generator/55e0d5414952ad14f1dc8460962e33791c3ad6e04e507441722978d6944acc_640.jpg",
+          "like": 125,
+          "bookmarkedstatus": false,
+          "username": "denizayhan04"
+        },
+        {
+          "id": 5,
+          "img": "https://randomwordgenerator.com/img/picture-generator/53e2d6414352a514f1dc8460962e33791c3ad6e04e507440742e7bd0944dc0_640.jpg",
+          "like": 441,
+          "bookmarkedstatus": false,
+          "username": "denizayhan04"
+        }
+      ]
+    }
+  ],
+  "mainmenu-posts": [
+    {
+      "id": 1,
+      "img": "https://randomwordgenerator.com/img/picture-generator/52e1d6444a55b10ff3d8992cc12c30771037dbf85254784a722d73dd904f_640.jpg",
+      "username": "Jack12",
+      "like": 65464,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 2,
+      "img": "https://randomwordgenerator.com/img/picture-generator/52e4d2464356af14f1dc8460962e33791c3ad6e04e5074417d2e72d6934cc5_640.jpg",
+      "username": "crasd4",
+      "like": 6666,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 3,
+      "img": "https://randomwordgenerator.com/img/picture-generator/52e2d7434b57af14f1dc8460962e33791c3ad6e04e507440742f7cd79044c2_640.jpg",
+      "username": "crfan",
+      "like": 789954,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 4,
+      "img": "https://randomwordgenerator.com/img/picture-generator/55e8d24b4d5ba414f1dc8460962e33791c3ad6e04e507440762e7adc974ec2_640.jpg",
+      "username": "messifan47",
+      "like": 1881,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 5,
+      "img": "https://randomwordgenerator.com/img/picture-generator/52e3d6434b5bb10ff3d8992cc12c30771037dbf85254784a742d7fd69e4f_640.jpg",
+      "username": "asda8",
+      "like": 1923,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 6,
+      "img": "https://randomwordgenerator.com/img/picture-generator/54e1d7444c51ab14f1dc8460962e33791c3ad6e04e507441722a72d39f45c5_640.jpg",
+      "username": "bohohoyt74",
+      "like": 1458,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 7,
+      "img": "https://randomwordgenerator.com/img/picture-generator/53e1d047494faa0df7c5d57bc32f3e7b1d3ac3e45658714d702872d390_640.jpg",
+      "username": "qwewqw4",
+      "like": 785,
+      "bookmarkedstatus": false
+    },
+    {
+      "id": 8,
+      "img": "https://randomwordgenerator.com/img/picture-generator/53e2d5474d50a514f1dc8460962e33791c3ad6e04e507440762e79d79348c1_640.jpg",
+      "username": "asdasad5",
+      "like": 47,
+      "bookmarkedstatus": true
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "img": "https://randomuser.me/api/portraits/men/76.jpg",
+      "username": "mj"
+    },
+    {
+      "id": 2,
+      "img": "https://randomuser.me/api/portraits/men/84.jpg",
+      "username": "jack"
+    },
+    {
+      "id": 3,
+      "img": "https://randomuser.me/api/portraits/men/28.jpg",
+      "username": "semih"
+    },
+    {
+      "id": 4,
+      "img": "https://randomuser.me/api/portraits/men/63.jpg",
+      "username": "hüseyin"
+    },
+    {
+      "id": 5,
+      "img": "https://randomuser.me/api/portraits/men/14.jpg",
+      "username": "tom"
+    },
+    {
+      "id": 6,
+      "img": "https://randomuser.me/api/portraits/women/27.jpg",
+      "username": "peter"
+    },
+    {
+      "id": 7,
+      "img": "https://randomuser.me/api/portraits/women/29.jpg",
+      "username": "steven"
+    },
+    {
+      "id": 8,
+      "img": "https://randomuser.me/api/portraits/women/49.jpg",
+      "username": "michael"
+    },
+    {
+      "id": 9,
+      "img": "https://randomuser.me/api/portraits/men/31.jpg",
+      "username": "bob"
+    }
+  ],
+  "bookmarked-posts": [
+    {
+      "id": 8,
+      "img": "https://randomwordgenerator.com/img/picture-generator/53e2d5474d50a514f1dc8460962e33791c3ad6e04e507440762e79d79348c1_640.jpg",
+      "username": "asdasad5",
+      "like": 47,
+      "bookmarkedstatus": true
+    }
+  ]
+}

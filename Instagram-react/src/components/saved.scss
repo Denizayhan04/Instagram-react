@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+.saved{
+    
+    .container{
+        z-index: 4;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        .content{
+            height: auto;
+            flex-basis: 935px;
+            h3{
+                padding-left: 15px;
+            }
+            .posts{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: auto;
+                justify-content: flex-start;
+                gap: 20px;
+
+                
+                
+                .post{
+                    cursor: pointer;
+                    width: 293px;
+                    height: 293px;
+                    img{
+                        width: 293px;
+                        height: 293px;
+                    }
+                    
+
+                }
+            }
+
+        }
+    }
+}
+.secret-div{
+    display: block;
+
+    z-index: 5;
+    
+}

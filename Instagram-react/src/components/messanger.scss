@@ -1,0 +1,108 @@
+
+.forflex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 875px;
+    .messanger{
+        a{
+            cursor: pointer;
+        }
+        margin-top: 15px;
+        display: flex;
+        height: calc(100%-15px);
+        flex-basis: 935px;
+        padding-top: 5px;
+        position: relative;
+
+        .people{
+            position: relative;
+            flex-grow: 1;
+            height: 100%;
+            .asagi{
+                transform: rotate(180deg);
+            }
+            .people-top{
+                position: relative;
+
+                width: 100%;
+                padding: 0 15px;
+                display: flex;
+                height: 60px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    width: 20%;
+                }
+                .username-link{
+                    display: flex;
+                    justify-content: center;
+                    width: 80%;
+                    height: 100%;
+                }
+            }
+            .users{
+                overflow-y: auto;
+                position: relative;
+                width: 100%;
+                height: calc(100% - 60px);
+                .user{
+                    cursor: pointer;
+
+                    img{
+                        border-radius: 50%;
+                        margin-right: 10px;
+                        cursor: pointer;
+                    }
+                    width: 100%;
+                    height: 72px;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        span{
+                            font-size: small;
+                            &:nth-child(2){
+                                color: #8E8E8E;
+                            }
+                        }
+                    }
+
+                }
+            }
+            
+        }
+        .messages{
+            flex-grow: 5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            span{
+                margin-top: 15px;
+                font-size: 18px;
+            }
+            .bot-span{
+                color: #8e8e8e;
+                font-size: 14px;
+
+            }
+            button{
+                background-color: #0095f6;
+                color: white;
+                font-size: 14px;
+                border: none;
+                border-radius: 5px;
+                margin-top: 15px;
+                height: 30px;
+                width: 109px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

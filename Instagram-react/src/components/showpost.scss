@@ -1,0 +1,161 @@
+.showpost{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #2c2b2b, $alpha: 0.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    z-index: 6;
+    .close{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+    }
+
+    .container{
+        background-color: #2c2b2b;
+        display: flex;
+        align-items:center ;
+        width: auto;
+        height: 921px;
+        
+        .content{
+            width: auto;
+            height: 921px;
+            .center{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                img{
+                    width: 100%;
+                }
+            }
+            
+        }
+        .info{
+            position: relative;
+            width: 499px;
+            height: 921px;
+            background-color: white;
+            padding: 0px 15px;
+            display: flex;
+            flex-direction: column;
+            .user{
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1) ;
+                .space{
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                }
+
+                display: flex;
+                align-items: center;
+                height: 60px;
+                width: 100%;
+                justify-content: space-between;
+                a{
+                    width: fit-content;
+                    margin-right: 7px;
+
+                }
+                svg{
+                    cursor: pointer;
+                }
+                .follow{
+                    cursor: pointer;
+                    color: #0095f6;
+                }
+                img{
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+        .comments{
+            width: 100%;
+            height: 700px;
+
+            overflow-y: auto;
+            .ownercomment{
+                display: flex;
+                align-items: flex-start;
+                height: auto;
+                >p{
+                    margin-left: 15px;
+                    span{font-weight: bold;}
+                }
+                img{
+                    margin-top: 10px;
+                    border-radius: 50%;
+                }
+            }
+            .usercomments{
+                display: flex;
+                flex-direction: column-reverse;
+                width: 100%;
+                height: auto;                
+                .usercommentschild{
+                    display: flex;
+                    width: 100%;
+                    span{
+                        font-weight: bold;
+                    }
+                    img{
+                        margin-right: 15px;
+                        margin-top: 15px;
+                        border-radius: 50%;
+                    }
+
+                }
+            }
+            .interaction{
+                height: 166px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;                
+                width: 100%;
+                z-index: 3;
+                background-color: white;
+                .like-share{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    height: 55px;
+                    width: 100%;
+                    svg{
+                        margin-right:8px;
+                        cursor: pointer;
+                    }
+                }
+                div{
+                    padding-left: 10px;
+                    margin-bottom: 5px;
+                }
+                input{
+                    height: 50px;
+                    width: 80%;
+                    border: none;
+                    outline: none;
+                    padding-left: 10px;
+                }
+                button{
+                    width: 20%;
+                    height: 50px;
+                    border: none;
+                    outline: none;                    
+                    color: #0095F6;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+}
